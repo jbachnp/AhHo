@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<!--
+index.html
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+
+    <script type="text/javascript" src="SharedTechnology/ExternalDependency/JsLibrary/JQuery/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+    <!--gui-->
+    <div>
+        Index.html
+        <div id="msg"></div>
+    </div>
+
+    <!--code-->
+    <script>
+        $(document).ready(function () {
+            console.log("document loaded");
+            $("#msg").append("document loaded");
+        });
+
+    </script>
+
+</body>
+</html>
