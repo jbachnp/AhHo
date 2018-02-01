@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<!--
+index.html
+-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+
+    <script src="SharedTechnology/ExternalDependency/JsLibrary/JQuery/jquery-2.1.0.min.js"></script>
+	<script src="SharedTechnology/ExternalDependency/JsLibrary/LinqJS/linq.min.js"></script>
+	<script src="SharedTechnology/ExternalDependency/JsLibrary/Underscore/underscore-min.js"></script>
+</head>
+<body>
+    <!--gui-->
+    <div>
+        Index2.html
+        <div id="msg"></div>
+    </div>
+
+    <!--code-->
+    <script>
+        $(document).ready(function () {
+            $("#msg").append("Hello GitHub 2");
+            $("#msg").append(Enumerable.From([1, 2, 3]).Count());
+			
+			
+			
+        });
+
+    </script>
+
+</body>
+</html>
